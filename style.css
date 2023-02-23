@@ -10,27 +10,64 @@ html {
 /*--------Logo Styling---------*/
   .cb-logo-img
   {
-    width: 40%;
-    margin-left: 55%;
+    width: 12%;
+    margin-left: 85%;
   }
   .cb-home-logo-container
   { 
     
     display: grid;
-    grid-template-columns: 10% 90%;
+    grid-template-columns: 40% 60%;
     align-items: center;
-    margin-top: 2%;
+    margin-top: 1%;
+    
 
   }
   .cb-home-headone
   {
     font-family: 'Roboto Slab', serif;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
     margin-left: 1%;
     color: #e94026;
 
   }
+ /*--------Header Styling---------*/
+  .cb-header {
+    overflow: hidden;
+    width:100%;
+    background-color: #e94026;
+    
+  }
+  
+  .cb-header a {
+    font-family: 'Roboto Slab', serif;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 1.8rem; 
+    line-height: 25px;
+    border-radius: 4px;
+    margin-left: 20%;
+  }
+  
+  
+  .cb-header a:hover {
+    /* background-color: #ddd; */
+    color: #6F4E37;
+  }
+  
+  /* .cb-header a.active {
+    background-color: dodgerblue;
+    color: white;
+  } */
+  
+  .cb-header-right {
+    float: right;
+  }
+  
   /* img {
     width: 100%;
     height: 300px;
