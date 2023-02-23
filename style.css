@@ -10,5 +10,19 @@ html {
 /*--------Logo Styling---------*/
   .cb-logo-img
   {
+    width: 40%;
+    margin-left: 55%;
+  }
+  .cb-home-logo-container
+  {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
 
   }
+  /* img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: bottom;
+  } */
