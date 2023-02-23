@@ -14,10 +14,21 @@ html {
     margin-left: 55%;
   }
   .cb-home-logo-container
-  {
+  { 
+    
     display: grid;
     grid-template-columns: 10% 90%;
     align-items: center;
+    margin-top: 2%;
+
+  }
+  .cb-home-headone
+  {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 1%;
+    color: #e94026;
 
   }
   /* img {
