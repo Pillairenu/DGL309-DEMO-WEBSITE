@@ -1,0 +1,14 @@
+/*---------------------Common style for all pages--------------------*/
+* {
+    box-sizing: border-box;
+  } 
+html {
+    font-size: 62.5%; /* Set the root font size on all pages to 62.5% */
+  }
+
+
+/*--------Logo Styling---------*/
+  .cb-logo-img
+  {
+
+  }
