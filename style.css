@@ -5,9 +5,11 @@
     padding:0;
   } 
 html {
-    font-size: 62.5%; /* Set the root font size on all pages to 62.5% #2C3337 #14274E*/
+    font-size: 62.5%; /* Set the root font size on all pages to 62.5%*/
     color: black;
   }
+
+/*---------------------Header--------------------*/
 .cb-header-container{
   width:100%;
   background-color:#7a8f99;
@@ -37,4 +39,33 @@ html {
   line-height: 25px;
   border-radius: 4px;
   margin-left: 10%;
+}
+
+/*------------------Video---------------------*/
+/* .video-container
+{ 
+  width:100%;
+  height: 600px;
+  overflow: hidden;
+}
+.background-video
+{ padding: .2%;
+  width: 100%;
+  height: auto;
+  
+} */
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
+  
+}
+
+.background-video {
+  position: absolute;
+  top: -2%;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
