@@ -10,18 +10,17 @@ html {
 /*--------Logo Styling---------*/
   .cb-logo-img
   {
-    width: 12%;
-    margin-left: 85%;
+    width: 45%;
+    margin-left: 45%; 
   }
-  .cb-home-logo-container
+  .cb-home-header-container
   { 
     
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 20% 80%;
     align-items: center;
-    margin-top: 1%;
+    background-color:#7a8f99;
     
-
   }
   .cb-home-headone
   {
@@ -33,12 +32,12 @@ html {
 
   }
  /*--------Header Styling---------*/
-  .cb-header {
+  /* .cb-header {
     overflow: hidden;
     width:100%;
-    background-color: #e94026;
+    background-color:#7a8f99;
     
-  }
+  } */
   
   .cb-header a {
     font-family: 'Roboto Slab', serif;
@@ -47,7 +46,7 @@ html {
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: 1.8rem; 
+    font-size: 2rem; 
     line-height: 25px;
     border-radius: 4px;
     margin-left: 20%;
@@ -55,7 +54,6 @@ html {
   
   
   .cb-header a:hover {
-    /* background-color: #ddd; */
     color: #6F4E37;
   }
   
@@ -67,10 +65,15 @@ html {
   .cb-header-right {
     float: right;
   }
-  
-  /* img {
-    width: 100%;
-    height: 300px;
+
+  #background-video
+   {
+    width: 99vw;
+    height: 75vh;
     object-fit: cover;
-    object-position: bottom;
-  } */
+    position: absolute;
+    left: .5%;
+    margin-top: 9%;
+    top: 0%;
+    z-index: -1;
+}
