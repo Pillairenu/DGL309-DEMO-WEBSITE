@@ -28,7 +28,7 @@ html {
   width:20%;
   margin-left: 10%;
 }
-.cb-header a {
+.cb-navbar a {
   font-family: 'Roboto Slab', serif;
   float: left;
   color: white;
@@ -40,9 +40,19 @@ html {
   border-radius: 4px;
   margin-left: 10%;
 }
-.cb-header a:hover {
+.cb-navbar a:hover {
   color: #e3d2b0;
 }
+/*-------------To make sticky nav-------------------*/
+#navbar{
+  overflow: hidden;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 
 /*------------------Video---------------------*/
 /* .video-container
