@@ -54,7 +54,9 @@ html {
 }
 
 
-/*------------------Video---------------------*/
+/*------------------Video---------------------------*/
+
+
 /* .video-container
 { 
   width:100%;
@@ -91,4 +93,29 @@ font-size: 6rem;
 color:white;
 text-align: center;
 padding: 1.5%;
+line-height: 1.2;
+letter-spacing: 0.0em;
+}
+
+.cb-subsection
+{
+  
+  margin-top: 14%;
+  padding:5%;
+  
+}
+.cb-subsection h2{
+  font-family: 'Roboto Slab', serif;
+  font-size:3rem;
+  line-height: 1.2;
+  letter-spacing: 0.0em;
+
+}
+.cb-subsection p{
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size:1.4rem;
+  padding-top:1%;
+  line-height: 1.6;
+  letter-spacing:0.025em ;
+
 }
