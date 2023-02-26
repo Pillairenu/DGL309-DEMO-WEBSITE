@@ -206,10 +206,33 @@ letter-spacing: 0.0em;
     margin-bottom: 10px;
   }
   
-  /* .hero-text p {
+  .social-icons {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons a i {
     font-size: 24px;
-    margin-bottom: 30px;
-  } */
+    
+  }
+  
+  
+  .soc-instagram {
+    background: url(images/insta-bg.png) no-repeat;
+      background-size: auto;
+      background-size: cover;
+  }
+  .soc-fb {
+    background: url(images/fb-bg.png) no-repeat;
+      background-size: auto;
+    background-size: cover;
+  }
   
   footer{
     margin-top: 10%;
