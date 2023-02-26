@@ -43,6 +43,7 @@ html {
 .cb-navbar a:hover {
   color: #e3d2b0;
 }
+
 /*-------------To make sticky nav-------------------*/
 #navbar{
   overflow: hidden;
@@ -51,6 +52,7 @@ html {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 20;
 }
 
 
@@ -209,4 +211,10 @@ letter-spacing: 0.0em;
     margin-bottom: 30px;
   } */
   
- 
+  footer{
+    margin-top: 10%;
+    color: white;
+    width: 100%;
+    background-color:#1f2f35;
+    
+    }
