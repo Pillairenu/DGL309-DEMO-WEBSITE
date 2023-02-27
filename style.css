@@ -210,6 +210,8 @@ letter-spacing: 0.0em;
     display: flex;
     align-items: center;
     width: 100%;
+    justify-content: center;
+    margin-top: 4%;
   }
   
   .social-icons a {
@@ -219,23 +221,29 @@ letter-spacing: 0.0em;
   
   .social-icons a i {
     font-size: 24px;
-    
-  }
-  
+    color: white;
+}
   
   .soc-instagram {
     background: url(images/insta-bg.png) no-repeat;
-      background-size: auto;
-      background-size: cover;
+      
+    background-size: auto;
   }
   .soc-fb {
     background: url(images/fb-bg.png) no-repeat;
-      background-size: auto;
-    background-size: cover;
+     
+    background-size: auto;
+  }
+  .fa {
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px -3px;
   }
   
   footer{
-    margin-top: 10%;
+    margin-top: 4%;
     color: white;
     width: 100%;
     background-color:#1f2f35;
