@@ -179,13 +179,14 @@ letter-spacing: 0.0em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   }
+
+  /*------------------Hero Image---------------------------*/
   .cb-section-onlineorder
   {
     margin-top: 12%;
     width: 100%;
     height: 500px;
   }
-  /*------------------Hero Image---------------------------*/
   .hero-image {
     background-image: url("images/coffee3.jpg");
     background-repeat: no-repeat;
@@ -206,6 +207,7 @@ letter-spacing: 0.0em;
   }
   
   .hero-text h2 {
+    font-family: 'Roboto Slab', serif;
     font-size: 4rem;
     margin-bottom: 10px;
   }
@@ -370,4 +372,35 @@ width: 80%;
 }
 .menu-img:hover {
 box-shadow: 0 0 2px 1px #e3d2b0;
+}
+/*-----------------ORDER ONLINE--------------------------*/
+.cb-onlineorder
+{
+  width: 100%;
+  height: 500px;
+}
+
+.cb-hero-image {
+  background-image: url("images/online4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center center;
+  width: 100%;
+  height: 120%;
+}
+
+.cb-hero-text {
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.cb-hero-text h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 4rem;
+  margin-bottom: 10px;
 }
