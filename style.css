@@ -404,3 +404,47 @@ box-shadow: 0 0 2px 1px #e3d2b0;
   font-size: 4rem;
   margin-bottom: 10px;
 }
+.onlineorder-content
+{
+  
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+.onlineorder-content p{
+
+    font-family: 'Roboto Slab', serif;
+    font-size:1.6rem;
+    line-height: 2;
+    color:#7a8f99;
+    text-align: center;
+}
+.form-container
+{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+
+input[type=text], select,input[type=email],textarea,input[type=tel] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: #f1e9d8;
+  color: #7a8f99 !important;
+}
+
+input[type=submit] {
+  background-color: rgb(240, 93, 91);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
