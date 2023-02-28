@@ -471,8 +471,10 @@ input[type=number] {
   border: none;
   background-color:#ccc;
   border: none;
-  width: 65%;
+  width: 50%;
+  height: 70%;
   margin-left: 5%;
+  padding: 3%;
   
 }
 .form-h2
@@ -538,3 +540,27 @@ input[type=submit]:hover {
   
   width: 10%;
   }
+  
+/*---------------------------Media Query-320px---------------------------*/
+
+@media screen and (min-width: 320px)  {
+
+  .icon {
+    display: icon;
+  }
+}
+/*-----------------------------Media Query-768px---------------------------*/
+
+@media only screen and (min-width: 768px) {
+  .icon {
+    display: none;
+  }
+
+}
+/*---------------------------Media Query-1200px---------------------------*/
+@media screen and (min-width: 1200px) {
+
+  .icon {
+    display: none;
+  }
+}
