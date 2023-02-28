@@ -302,22 +302,8 @@ letter-spacing: 0.0em;
  .mySlides
      {
  display: none;
- }     
- .dot 
- {
- cursor: pointer;
- height: 15px;
- width: 15px;
- margin: 0 2px;
- background-color: #bbb;
- border-radius: 50%;
- display: inline-block;
- transition: background-color 0.6s ease;
- }      
-  .dot:hover
-     {
- background-color: #717171;
- }         
+ }  
+   
  .fade 
  {
  animation-name: fade;
@@ -327,3 +313,61 @@ letter-spacing: 0.0em;
  from {opacity: .4}
  to {opacity: 1}
  }
+ /*-----------------MENU---------------------------*/
+ .cb-menu-container-one
+ {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  
+ }
+ .cb-main-menu
+ {
+ padding:10%;
+ }
+ .cb-main-menu h2
+ {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 2rem;
+  line-height: 1.8;
+  letter-spacing:0.025em ;
+  margin-bottom: 3%;
+  color:#6F4E37;
+ }
+ .cb-main-menu h4
+ {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size:1.6rem;
+  line-height: 1.8;
+  letter-spacing:0.025em ;
+  margin-top: 10px;
+ }
+ .cb-main-menu p
+ {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size:1.4rem;
+  line-height: 1.8;
+  letter-spacing:0.025em ;
+ }
+  hr.secondary {
+  width: 100%;
+  border-top: 1px solid #E3D2B0;
+  margin-bottom: 10px;
+}
+/*-----------------image thumbnail---------------------------*/
+.image-column
+{
+display: grid;
+grid-template-columns: 25% 25%  25% 25% ;
+margin-left: 5%;
+}
+.menu-img{
+
+border: 1px solid #ddd;
+border-radius: 4px;
+padding: 5px;
+width: 80%;
+
+}
+.menu-img:hover {
+box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
