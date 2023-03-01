@@ -544,7 +544,7 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #7a8f99;
   
-  width: 10%;
+ 
   }
   
 /*---------------------------Media Query-320px---------------------------*/
@@ -612,7 +612,16 @@ input[type=submit] {
 }
 .hero-text {
   
-  top: 69%;
+  top: 65%;
+}
+.caption h2
+{
+
+font-size: 3rem;
+}
+.onlineorder-content {
+  padding-top: 39%;
+  
 }
 }
 
@@ -684,6 +693,15 @@ input[type=submit] {
   grid-template-columns: 30% 70%;
   
 }
+.caption h2
+{
+
+font-size: 4rem;
+}
+.onlineorder-content {
+  padding-top: 20%;
+  
+}
 }
 
 /*---------------------------Media Query-1200px---------------------------*/
@@ -752,5 +770,15 @@ input[type=submit] {
  
   grid-template-columns: 50% 50%;
   
+}
+.caption h2
+{
+
+font-size: 6rem;
+}
+.onlineorder-content
+{
+  
+  padding-top: 10%;
 }
 }
