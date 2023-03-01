@@ -96,7 +96,7 @@ html {
   height: 100%;
   z-index: -1;
 }
-.caption h2
+.caption h1
 {
 font-family: 'Roboto Slab', serif;
 margin-top: -25%;
@@ -614,7 +614,7 @@ input[type=submit] {
   
   top: 65%;
 }
-.caption h2
+.caption h1
 {
 
 font-size: 3rem;
@@ -693,7 +693,7 @@ input[type=submit] {
   grid-template-columns: 30% 70%;
   
 }
-.caption h2
+.caption h1
 {
 
 font-size: 4rem;
@@ -771,7 +771,7 @@ input[type=submit] {
   grid-template-columns: 50% 50%;
   
 }
-.caption h2
+.caption h1
 {
 
 font-size: 6rem;
