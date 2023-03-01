@@ -28,7 +28,7 @@ html {
   width:20%;
   margin-left: 10%;
 }
-.cb-navbar a {
+.topnav a {
   font-family: 'Roboto Slab', serif;
   float: left;
   color: white;
@@ -39,10 +39,16 @@ html {
   line-height: 25px;
   border-radius: 4px;
   margin-left: 10%;
+  display: block;
+  
 }
-.cb-navbar a:hover {
+.topnav .icon {
+  display: none;
+}
+.topnav a:hover {
   color: #e3d2b0;
 }
+
 
 /*-------------To make sticky nav-------------------*/
 #navbar{
@@ -542,25 +548,62 @@ input[type=submit]:hover {
   }
   
 /*---------------------------Media Query-320px---------------------------*/
-
-@media screen and (min-width: 320px)  {
-
-  .icon {
-    display: icon;
-  }
+.cb-nav-logo-container a.icon {
+    
+  display: block;
+ 
 }
-/*-----------------------------Media Query-768px---------------------------*/
+
+.cb-nav-logo-container #nav-items {
+    
+  display: none;
+ 
+}
+a.icon {
+  
+  position: absolute;
+  left: 50%;
+  color: white;
+}
+
+
+
+
+/*--------------- Medium devices (landscape tablets, 768px and up)---------------- */
+
 
 @media only screen and (min-width: 768px) {
-  .icon {
+
+  .cb-nav-logo-container a.icon {
+    
     display: none;
+   
   }
+  .cb-nav-logo-container #nav-items {
+      
+    display: block;
+   
+}
+
+
 
 }
+
 /*---------------------------Media Query-1200px---------------------------*/
 @media screen and (min-width: 1200px) {
+ 
+ 
+.cb-nav-logo-container a.icon {
+    
+  display: none;
+ 
+}
+.cb-nav-logo-container #nav-items {
+    
+  display: block;
+ 
+}
 
-  .icon {
-    display: none;
-  }
+
+
 }

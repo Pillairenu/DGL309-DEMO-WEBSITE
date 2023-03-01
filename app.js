@@ -27,10 +27,10 @@ function showSlides() {
 }
 
 function showFunction() {
-  var x = document.getElementById("myLinks");
+  var x = document.getElementById("nav-items");
   if (x.style.display === "block") {
-      x.style.display = "none";
+    x.style.display = "none";
   } else {
-      x.style.display = "block";
+    x.style.display = "block";
   }
-  }
+}
