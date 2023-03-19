@@ -226,7 +226,7 @@ letter-spacing: 0.0em;
     align-items: center;
     width: 100%;
     justify-content: flex-start;
-    margin-top: 6%;
+    margin-top: 10%;
    
   }
   
@@ -283,7 +283,10 @@ letter-spacing: 0.0em;
       text-decoration: none;
       color:white;
     }
-   
+    .cb-footer-container h4{
+      margin-top: 2%;
+    }
+
     .googlemap
     {
       width: 462px;
