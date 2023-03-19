@@ -269,7 +269,6 @@ letter-spacing: 0.0em;
     display: grid;
     gap: 15px;
     grid-template-columns: auto auto;
-    margin-left: 8%;
     color:white;
     font-family: 'Roboto Slab', serif;
     font-size:1.4rem;
@@ -555,6 +554,11 @@ input[type=submit]:hover {
   
 /*---------------------------Media Query-320px---------------------------*/
 @media only screen and (min-width: 320px) {
+  .cb-logo-img 
+ {
+    width: 30%;
+ 
+ }
 .cb-nav-logo-container a.icon {
     
   display: block;
@@ -631,6 +635,11 @@ font-size: 3rem;
   padding-top: 39%;
   
 }
+footer
+{
+    padding-top: 4%;
+  
+}
 }
 
 /*--------------- Medium devices (landscape tablets, 768px and up)---------------- */
@@ -642,6 +651,9 @@ font-size: 3rem;
     
     display: none;
    
+  }
+  .cb-logo-img {
+    width: 40%;
   }
   .cb-nav-logo-container #nav-items {
       
@@ -710,12 +722,19 @@ font-size: 4rem;
   padding-top: 20%;
   
 }
+footer
+{
+    padding-top: 0%;
+  
+}
 }
 
 /*---------------------------Media Query-1200px---------------------------*/
 @media screen and (min-width: 1200px) {
  
- 
+  .cb-logo-img {
+    width: 20%;
+  }
 .cb-nav-logo-container a.icon {
     
   display: none;
@@ -788,5 +807,10 @@ font-size: 6rem;
 {
   
   padding-top: 10%;
+}
+footer
+{
+    padding-top: 0%;
+  
 }
 }

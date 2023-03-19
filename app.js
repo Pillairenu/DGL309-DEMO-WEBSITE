@@ -33,5 +33,7 @@ function showFunction() {
   } else {
     x.style.display = "flex";
     x.style.flexDirection= "column";
+    x.style.alignItems="flex-start";
+  
   }
 }
