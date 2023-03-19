@@ -279,7 +279,7 @@ letter-spacing: 0.0em;
     }
     .cb-footer-container a
     {
-      text-decoration: none;
+      
       color:white;
     }
     .cb-footer-container h4{
@@ -556,7 +556,7 @@ input[type=submit]:hover {
 @media only screen and (min-width: 320px) {
   .cb-logo-img 
  {
-    width: 30%;
+    width: 40%;
  
  }
 .cb-nav-logo-container a.icon {
@@ -638,6 +638,11 @@ font-size: 3rem;
 footer
 {
     padding-top: 4%;
+  
+}
+.hero-text h2 {
+  
+  font-size: 3rem;
   
 }
 }
@@ -727,6 +732,12 @@ footer
     padding-top: 0%;
   
 }
+.hero-text h2 {
+  
+  font-size: 4rem;
+  
+}
+
 }
 
 /*---------------------------Media Query-1200px---------------------------*/
@@ -811,6 +822,11 @@ font-size: 6rem;
 footer
 {
     padding-top: 0%;
+  
+}
+.hero-text h2 {
+  
+  font-size: 4rem;
   
 }
 }
