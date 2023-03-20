@@ -496,7 +496,67 @@ input[type=checkbox]:checked {
   accent-color:  #dc4348;
   
 }
+input[type="date"]::-webkit-datetime-edit-day-field:checked {
+  color: red;
+}
+/* input[type="date"]:focus
+{
+  background: red !important;
+} */
+/* ::-webkit-calendar-picker-indicator {
+  background: red !important;
+}  */
 
+/* input[type="date"] {
+  color-scheme: dark;
+} */
+
+/* input[type="date"]::-webkit-calendar-picker-indicator {
+ 
+} */
+/* input::-webkit-inner-spin-button,
+input::-webkit-clear-button {
+  display: block;
+}
+-webkit-calendar-picker-indicator
+input::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1
+}
+
+input::-webkit-calendar-picker-indicator:focus {
+  background: transparent;
+  cursor: pointer;
+  color: rgba(120, 19, 19, 0);
+}
+
+input::-webkit-calendar-picker-indicator::after {
+  content: '';
+  display: block;
+  background: url(https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-32.png) no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -16px;
+} */
+
+/* ::-webkit-datetime-edit { padding: 1em; }
+::-webkit-datetime-edit-fields-wrapper { background: silver; }
+::-webkit-datetime-edit-text { color: red; padding: 0 0.3em; }
+::-webkit-datetime-edit-month-field { color: blue; }
+::-webkit-datetime-edit-day-field { color: green; }
+::-webkit-datetime-edit-year-field { color: purple; }
+::-webkit-inner-spin-button { display: none; }
+::-webkit-calendar-picker-indicator { background: orange; }
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(100%);
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator .selected {
+  background: silver !important;
+} */
 .form-h2
 {
     font-family: 'Roboto Slab', serif;
