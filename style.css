@@ -492,6 +492,11 @@ input[type=number] {
   border-radius: 4px;
   
 }
+input[type=checkbox]:checked {
+  accent-color:  #dc4348;
+  
+}
+
 .form-h2
 {
     font-family: 'Roboto Slab', serif;
