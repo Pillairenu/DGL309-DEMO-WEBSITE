@@ -458,6 +458,7 @@ input[type=text], select,input[type=email],textarea,input[type=tel] {
 }
 ::placeholder {
   color: #7a8f99 !important;
+  font-size: 1.2rem;
 }
 input[type=date] {
   
@@ -482,11 +483,10 @@ input[type=number] {
   color: #7a8f99 !important;
  
   margin-top: 3.5%;
-  border: none;
-  background-color:#ccc;
-  border: none;
+  border: 1px solid #ccc;
+  background-color: #f1e9d8;
   width: 50%;
-  height: 70%;
+  height: 65%;
   margin-left: 5%;
   padding: 3%;
   border-radius: 4px;
