@@ -672,6 +672,19 @@ footer
   display: flex;
   flex-direction: column;
 }
+
+
+
+
+
+.image-column {
+  
+  margin-left: 12%;
+}
+.menu-img {
+  
+  width: 60%;
+}
 }
 
 /*--------------- Medium devices (landscape tablets, 768px and up)---------------- */
@@ -772,6 +785,17 @@ footer
 }
 
 
+
+
+.image-column {
+  
+  margin-left: 14%;
+}
+.menu-img {
+  
+  width: 60%;
+}
+
 }
 
 /*---------------------------Media Query-1200px---------------------------*/
@@ -868,4 +892,14 @@ footer
   flex-direction: row;
 }
 
+
+
+.menu-img {
+  
+  width: 80%;
+}
+.image-column {
+  
+  margin-left: 0%;
+}
 }
