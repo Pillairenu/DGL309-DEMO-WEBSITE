@@ -677,14 +677,7 @@ footer
 
 
 
-.image-column {
-  
-  margin-left: 12%;
-}
-.menu-img {
-  
-  width: 60%;
-}
+
 }
 
 /*--------------- Medium devices (landscape tablets, 768px and up)---------------- */
@@ -787,14 +780,6 @@ footer
 
 
 
-.image-column {
-  
-  margin-left: 14%;
-}
-.menu-img {
-  
-  width: 60%;
-}
 
 }
 
@@ -894,12 +879,5 @@ footer
 
 
 
-.menu-img {
-  
-  width: 80%;
-}
-.image-column {
-  
-  margin-left: 5%;
-}
+
 }
