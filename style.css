@@ -108,6 +108,16 @@ padding: 1.5%;
 line-height: 1.2;
 letter-spacing: 0.0em;
 }
+.caption1
+{
+  font-family: 'Roboto Slab', serif;
+  line-height: 1.2;
+  letter-spacing: 0.0em;
+  color:  #7a8f99;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1%;
+}
 
 .cb-subsection-story
 { 
@@ -413,11 +423,11 @@ box-shadow: 0 0 2px 1px #e3d2b0;
   
 }
 
-.cb-hero-text h2 {
+.cb-hero-text h1 {
   font-family: 'Roboto Slab', serif;
   font-size: 4rem;
-  margin-bottom: 10px;
-  color: white;
+  margin-bottom: 221px;
+  color: #fff;
 }
 .onlineorder-content
 {
