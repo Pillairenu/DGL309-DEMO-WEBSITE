@@ -525,7 +525,7 @@ textarea {
     font-family: 'Roboto Slab', serif;
     font-size:2.5rem;
     line-height: 2;
-    color:#7a8f99;
+    color: #dc4348;
     text-align: center;
     margin-top: 5%;
 }
@@ -591,6 +591,7 @@ input[type=submit]:hover {
     justify-content: space-between;
     align-items: center;
   }
+
   
 /*---------------------------Media Query-320px---------------------------*/
 @media only screen and (min-width: 320px) {
