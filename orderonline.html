@@ -46,14 +46,15 @@
          Orders need to be placed atleast two hours in advance to ensure all options are available.</p>
 </div>
 <div class="form-container">
+    
     <form class="online-form" action="mailto:someone@example.com" method="post" enctype="text/plain">
         
         <div class="form-group">
-        <input type="text" id="fname" name="name" placeholder="Name" autocomplete="name">
-        <input type="email" id="email" name="email" placeholder="Email" autocomplete="email" >
+        <input type="text" id="fname" name="name" placeholder="Name" autocomplete="name" required>
+        <input type="email" id="email" name="email" placeholder="Email" autocomplete="email" required >
         </div>
         <div class="form-group">
-        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone" autocomplete="phone">
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone" autocomplete="phone" required>
         <select id="payment" name="payment">
             <option value="" disabled="" selected="">Payment Method</option>
             <option value="debit">Debit</option>
@@ -224,6 +225,7 @@
 <label for="date" class="label">Pickup Date:</label>  
         <input type="date" id="date"  name="Pickup Date"><br>
                 <input type="submit" value="Submit">
+                
     </form>
 </div>
 
@@ -240,7 +242,7 @@
                     <p>Coffee Luv Bug</p>
                     <p>950 Cumberland Rd <br>
                         Courtenay, BC V9N 3C4 </p>
-                        <p> <b>Tel:</b> <a href="tel:(250)334-1034">(250) 334-1034</a>
+                        <p> Tel: <a href="tel:(250)334-1034">(250) 334-1034</a>
                         </p>
                         <h4>Hours:</h4>
                         <ul>
