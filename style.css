@@ -91,8 +91,7 @@ html {
 .video-container {
   position: relative;
   width: 100%;
- /*padding-bottom: 56.25%;  16:9 aspect ratio (9 / 16 * 100%) */  
- padding-bottom: 50%;
+  padding-bottom: 50%;
 }
 
 .background-video {
@@ -106,7 +105,7 @@ html {
 .caption h1
 {
 font-family: 'Roboto Slab', serif;
-margin-top: -25%;
+margin-top: -30%;
 font-size: 6rem;
 color:white;
 text-align: center;
@@ -127,7 +126,7 @@ letter-spacing: 0.0em;
 
 .cb-subsection-story
 { 
-  margin-top: 12%;
+  margin-top: 9%;
   padding: 10%;
   
 }
@@ -469,6 +468,7 @@ border-radius: 5px;
 background-color: #f2f2f2;
 padding: 5%;
 
+
 }
 
 input[type=text], select,input[type=email],textarea,input[type=tel] {
@@ -484,10 +484,12 @@ input[type=text], select,input[type=email],textarea,input[type=tel] {
   color: #7a8f99 !important;
   margin-left: 1%;
   margin-right: 1%;
+ 
 }
 ::placeholder {
   color: #7a8f99 !important;
   font-size: 1.2rem;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 input[type=date] {
