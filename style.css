@@ -29,10 +29,6 @@ html {
   width:20%;
   margin-left: 10%;
 }
-.topnav
-{
-  margin-left: 20%;
-}
 
 .topnav a {
   font-family: 'Roboto Slab', serif;
@@ -734,6 +730,15 @@ footer
   
   width: 60%;
 }
+.topnav
+{
+  margin-left: 0%;
+}
+.topnav a {
+  
+  font-size: 1.8rem;  
+}
+
 }
 
 /*--------------- Medium devices (landscape tablets, 768px and up)---------------- */
@@ -756,24 +761,24 @@ footer
 }
 
 .cb-footer-container
-    {
-    
-    grid-template-columns: auto auto;
-    
-    }
+{
 
-    .googlemap
-    {
-      width: 410px;
-     
-    } 
-    .cb-section-menu-grid
-    {
-      
-      grid-template-columns: 50% 50%;
-      
-    }
-    .cb-menu-content
+grid-template-columns: auto auto;
+
+}
+
+.googlemap
+{
+  width: 410px;
+  
+} 
+.cb-section-menu-grid
+{
+  
+  grid-template-columns: 50% 50%;
+  
+}
+.cb-menu-content
 {
   margin-left: 0%;
 }
@@ -833,6 +838,10 @@ footer
 
 }
 
+.topnav
+{
+  margin-left: 20%;
+}
 
 
 
@@ -843,6 +852,10 @@ footer
 .menu-img {
   
   width: 60%;
+}
+.topnav a {
+  
+  font-size: 2.2rem;  
 }
 
 }
@@ -950,5 +963,13 @@ footer
 .image-column {
   
   margin-left: 5%;
+}
+.topnav
+{
+  margin-left: 20%;
+}
+.topnav a {
+  
+  font-size: 2.2rem;  
 }
 }
