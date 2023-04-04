@@ -563,7 +563,7 @@ form p{
 {
   
   display: grid;
-  grid-template-columns: 20% 20% 20%;
+  grid-template-columns: 20% 20% 30%;
   font-family: 'Merriweather Sans', sans-serif;
   font-size:1.6rem;
   margin-top:2%;
