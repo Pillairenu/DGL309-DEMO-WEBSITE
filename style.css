@@ -738,6 +738,12 @@ footer
   
   font-size: 1.8rem;  
 }
+.caption1 h1
+{
+  
+  font-size: 2.5rem;
+  
+}
 
 }
 
@@ -857,6 +863,12 @@ footer
   
   font-size: 2.2rem;  
 }
+.caption1 h1
+{
+  
+  font-size: 3rem;
+  
+}
 
 }
 
@@ -971,5 +983,11 @@ footer
 .topnav a {
   
   font-size: 2.2rem;  
+}
+.caption1 h1
+{
+  
+  font-size: 3.5rem;
+  
 }
 }
